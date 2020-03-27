@@ -1,0 +1,3 @@
+esp/.pio
+arduino/.pio
+esp/src/keys.h
