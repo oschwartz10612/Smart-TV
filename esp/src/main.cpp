@@ -20,6 +20,7 @@ void setup_wifi()
     Serial.println();
     Serial.print("Connecting to ");
     Serial.println(WIFI_NAME);
+    WiFi.hostname("Smart_TV");
 
     WiFi.begin(WIFI_NAME, WIFI_PASSWORD);
 
