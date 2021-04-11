@@ -5,7 +5,7 @@
 
 // Update these with values suitable for your network.
 
-const char *mqtt_server = "192.168.1.183";
+const char *mqtt_server = MQTT_BROKER;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
