@@ -325,22 +325,22 @@ void loop()
     {
         sendTV();
         delay(100);
-        sendSound();
-        delay(30000);
-        for (int i = 0; i < 21; i++)
-        {
-            sendSoundUp();
-            delay(500);
-        }
+        // sendSound();
+        // delay(30000);
+        // for (int i = 0; i < 21; i++)
+        // {
+        //     sendSoundUp();
+        //     delay(500);
+        // }
         onOff = true;
     }
     else if (state == LOW && onOff == true)
     {
         sendTV();
         delay(100);
-        sendSound();
-        delay(100);
-        sendSound();
+        // sendSound();
+        // delay(100);
+        // sendSound();
         onOff = false;
     }
 }
